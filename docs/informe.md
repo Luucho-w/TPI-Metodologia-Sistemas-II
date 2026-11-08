@@ -7,9 +7,9 @@ Sistema de Gestión de Solicitudes Académicas.
 Python y archivos JSON.
 
 ## Integrantes
-- Integrante 1:
-- Integrante 2:
-- Integrante 3:
+- Integrante 1: Wittmund Luciano
+- Integrante 2: Pighin Bruno
+- Integrante 3: Benítez Ivans
 
 ## Etapa 1: Sistema inicial
 
