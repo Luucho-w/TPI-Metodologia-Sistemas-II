@@ -35,13 +35,23 @@ Se trabajó sobre una versión inicial con problemas de diseño y mantenimiento,
 ## Estructura del repositorio
 
 ```text
-TP_Metodologia_Sistemas_II/
+TPI_Metodologia/
 ├── sistema_inicial/
+│   ├── main.py
+│   └── data/
 ├── sistema_refactorizado/
+│   ├── main.py
+│   ├── repositorio.py
 │   ├── data/
+│   │   └── solicitudes.json
 │   └── tests/
+│       ├── __init__.py
+│       ├── test_repositorio.py
+│       └── test_funciones.py
+├── data/
+│   └── solicitudes.json
 ├── docs/
-│   └── informes.md
+│   └── informe.md
 ├── evidencias/
 └── README.md
 ```
@@ -62,22 +72,26 @@ python sistema_refactorizado/main.py
 
 ## Pruebas automatizadas
 
-Desde la carpeta principal, ejecutar:
+Desde la carpeta principal del proyecto, ejecutar:
 
 ```bash
-python -m unittest discover -s sistema_refactorizado/tests -v
+python -m unittest discover -s sistema_refactorizado/tests -t sistema_refactorizado -v
 ```
+
+El proyecto cuenta con ocho pruebas automatizadas para verificar el funcionamiento de las funciones principales y la persistencia de datos.
 
 ## Documentación
 
-El análisis, diagnóstico, refactorings, pruebas y revisión técnica se encuentran documentados en `docs/bitacora.md`.
+El análisis, diagnóstico, refactorings, pruebas y revisión técnica se encuentran documentados en `docs/informe.md`.
+
+Las capturas y demás evidencias del desarrollo se encuentran en la carpeta `evidencias/`.
 
 ## Uso de inteligencia artificial
 
-Se utilizó ChatGPT como herramienta de asistencia durante el desarrollo, análisis, refactoring y documentación del trabajo. Las decisiones y verificaciones finales corresponden al equipo.
+Se utilizó ChatGPT como herramienta de asistencia durante el desarrollo, análisis, refactoring, pruebas y documentación del trabajo. Las decisiones y verificaciones finales corresponden al equipo.
 
 ## Integrantes
 
-- Integrante 1: Wittmund Luciano
-- Integrante 2: Pighin Bruno
-- Integrante 3: Benítez Ivan
+- Wittmund Luciano.
+- Pighin Bruno.
+- Benítez Ivans.
