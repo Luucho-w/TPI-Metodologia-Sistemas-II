@@ -1,0 +1,39 @@
+{
+    "estudiantes": [
+        {
+            "id": 1,
+            "nombre": "Juan Perez",
+            "email": "juan@email.com"
+        },
+        {
+            "id": 2,
+            "nombre": "Maria Lopez",
+            "email": "maria@email.com"
+        }
+    ],
+    "responsables": [
+        {
+            "id": 1,
+            "nombre": "Carlos Gomez",
+            "area": "Sistemas"
+        },
+        {
+            "id": 2,
+            "nombre": "Laura Martinez",
+            "area": "Administracion"
+        }
+    ],
+    "solicitudes": [
+        {
+            "id": 1,
+            "estudiante_id": 1,
+            "titulo": "Metodologia",
+            "descripcion": "materia",
+            "tipo": "tecnica",
+            "prioridad": "alta",
+            "estado": "en_proceso",
+            "responsable_id": null,
+            "fecha": "2026-11-08 11:06:14.361172"
+        }
+    ]
+}
