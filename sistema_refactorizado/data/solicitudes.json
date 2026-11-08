@@ -1,0 +1,72 @@
+{
+    "estudiantes": [
+        {
+            "id": 1,
+            "nombre": "Juan Perez",
+            "email": "juan@email.com"
+        },
+        {
+            "id": 2,
+            "nombre": "Maria Lopez",
+            "email": "maria@email.com"
+        }
+    ],
+    "responsables": [
+        {
+            "id": 1,
+            "nombre": "Carlos Gomez",
+            "area": "Sistemas"
+        },
+        {
+            "id": 2,
+            "nombre": "Laura Martinez",
+            "area": "Administracion"
+        }
+    ],
+    "solicitudes": [
+        {
+            "id": 1,
+            "estudiante_id": 1,
+            "titulo": "Metodologia",
+            "descripcion": "tpi",
+            "tipo": "academica",
+            "prioridad": "alta",
+            "estado": "en_proceso",
+            "responsable_id": 1,
+            "fecha": "2026-11-08 11:17:45.130137"
+        },
+        {
+            "id": 2,
+            "estudiante_id": 2,
+            "titulo": "Meto",
+            "descripcion": "materia",
+            "tipo": "administrativa",
+            "prioridad": "media",
+            "estado": "abierta",
+            "responsable_id": null,
+            "fecha": "2026-11-08 11:24:10.366898"
+        },
+        {
+            "id": 3,
+            "estudiante_id": 2,
+            "titulo": "prueba",
+            "descripcion": "prueba",
+            "tipo": "tecnica",
+            "prioridad": "baja",
+            "estado": "abierta",
+            "responsable_id": null,
+            "fecha": "2026-11-08 11:24:54.191009"
+        },
+        {
+            "id": 4,
+            "estudiante_id": 2,
+            "titulo": "a",
+            "descripcion": "a",
+            "tipo": "tecnica",
+            "prioridad": "baja",
+            "estado": "abierta",
+            "responsable_id": null,
+            "fecha": "2026-11-08 12:00:00.504018"
+        }
+    ]
+}
